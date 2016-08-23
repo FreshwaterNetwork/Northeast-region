@@ -4,6 +4,11 @@
 		{
             "repo": "map-tree",
             "name": "layer_selector"
-        }
+        },
+		{
+			"repo": "barrier-prioritization",
+			"name": "barrier-prioritization",
+			"org": "FreshwaterNetwork"
+		}
     ]
 }
