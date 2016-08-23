@@ -1,0 +1,9 @@
+{
+    "plugins": [
+
+		{
+            "repo": "map-tree",
+            "name": "layer_selector"
+        }
+    ]
+}
