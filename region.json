@@ -2,7 +2,7 @@
     "googleAnalyticsPropertyId": "28810260-22",
     "googleUrlShortenerApiKey": "AIzaSyCGRjZtPUN9LG1wG83JGUvEqHimxYjC510",
     "titleMain": { "text": "Freshwater Network", "url": "http://freshwaternetwork.org" },
-	"titleDetail": { "text": "Northeast Region", "url": "http://freshwaternetwork.org/waternews/louisiana.html" },
+	"titleDetail": { "text": "Northeast Region", "url": "http://freshwaternetwork.org/waternews/northeast.html" },
     "headerLinks": [
         { "text": "The Nature Conservancy", "url": "http://www.nature.org/ourinitiatives/regions/northamerica/unitedstates/maine/index.htm" },
         { "text": "Partners", "url": "partners.html", "popup": true },
