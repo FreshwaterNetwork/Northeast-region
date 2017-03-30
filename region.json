@@ -4,12 +4,12 @@
     "titleMain": { "text": "Freshwater Network", "url": "http://freshwaternetwork.org" },
 	"titleDetail": { "text": "Northeast Region", "url": "http://freshwaternetwork.org/waternews/northeast.html" },
     "headerLinks": [
-	{ "text": "GO TO", "url": "#", "items": [
-		{ "text": "Mississippi", "url": "http://maps.freshwaternetwork.org/mississippi/" },
-		{ "text": "Louisiana", "url": "http://freshwaternetwork.org/waternews/louisiana.html" },
-		{ "text": "Alabama Demo", "url": "http://maps.freshwaternetwork.org/alabama-demo/" }
-	  ]
-	},
+		{ "text": "GO TO", "url": "#", "items": [
+			{ "text": "Mississippi", "url": "http://maps.freshwaternetwork.org/mississippi/" },
+			{ "text": "Louisiana", "url": "http://freshwaternetwork.org/waternews/louisiana.html" },
+			{ "text": "Alabama Demo", "url": "http://maps.freshwaternetwork.org/alabama-demo/" }
+		  ]
+		},
         { "text": "The Nature Conservancy", "url": "http://www.nature.org/ourinitiatives/regions/northamerica/unitedstates/maine/index.htm" },
         { "text": "Partners", "url": "partners.html", "popup": true },
         { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use/index.htm" },
