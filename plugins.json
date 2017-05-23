@@ -6,8 +6,8 @@
             "name": "layer_selector"
         },
 		{
-			"repo": "barrier-prioritization2",
-			"name": "barrier-prioritization2",
+			"repo": "barrier-prioritization-proto2",
+			"name": "barrier-prioritization-proto2",
 			"org": "FreshwaterNetwork"
 		}
     ]
