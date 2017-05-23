@@ -64,7 +64,7 @@
     "colors": {
        "primary": "#4BA947",
        "secondary": "#A0C04C",
-       "tertiary": "#D7DF27",
+       "tertiary": "#333333",
 		"active": "#0096D6"
     },
 	
