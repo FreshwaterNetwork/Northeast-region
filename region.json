@@ -21,6 +21,19 @@
         -66.5,
         47.75
     ],
+ "regionLinks": [
+            { "text": "California", "url": "http://maps.coastalresilience.org/california" },
+            { "text": "Connecticut", "url": "http://maps.coastalresilience.org/connecticut" },
+            { "text": "Global", "url": "http://maps.coastalresilience.org/global/" },
+            { "text": "Gulf of Mexico", "url": "http://maps.coastalresilience.org/gulfmex/" },
+            { "text": "Grenada, St. Vincent & the Grenadines", "url": "http://maps.coastalresilience.org/gsvg/" },
+            { "text": "MesoAmerican Reef", "url": "http://maps.coastalresilience.org/mar/" },
+            { "text": "New Jersey", "url": "http://maps.coastalresilience.org/newjersey" },
+            { "text": "Southeast Florida", "url": "http://maps.coastalresilience.org/seflorida/" },
+            { "text": "United States", "url": "http://maps.coastalresilience.org/unitedstates/" },
+            { "text": "U.S. Virgin Islands", "url": "http://maps.coastalresilience.org/usvi/" },
+            { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
+    ],
     "basemaps": [
         { "name": "Topographic"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
         { "name": "Imagery"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" },
@@ -32,24 +45,39 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-        "layer_selector",
-		"zoom_to",
-		"measure",
-		"legend_display",
-		"full_extent",
-		"subregion_toggle"
-       
+		"launchpad",
+	    "zoom_to",
+        "measure",
+        "legend_display",
+        "full_extent",
+        "subregion_toggle",
+		"barrier-prioritization-proto2"
     ],
-    
-    "identifyBlacklist":["OBJECTID", "OBJECTID_1", "Shape"],
+    "print": {
+        "printServerUrl": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/ExportWebMap/GPServer/Export%20Web%20Map", 
+	"customPrintTemplatePrefix": "Letter ANSI A GeositeFramework",
+	"headerLogoPath": "http://maps.coastalresilience.org/network/img/TNCLogoPrimary_RGB2.jpg"
+    },    
+    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
 	"identifyEnabled": true,
     
     "colors": {
-        "primary": "#457545",
-        "secondary": "#81b94d"
+       "primary": "#4BA947",
+       "secondary": "#A0C04C",
+       "tertiary": "#D7DF27",
+		"active": "#0096D6"
     },
 	
-    "print": {
-        "printServerUrl": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Louisiana/ExportWebMap/GPServer/Export%20Web%20Map", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"
-    }
+    "launchpad": {
+            "title": "",
+            "description":"<p>Welcome to the Freshwater Northeast Region, where users can explore in-stream barriers to aquatic connectivity.</p>",
+            "plugins": [
+
+				{
+					"title": "Aquatic Barrier Prioritization - new",
+					"description": "A tool to assess barriers to aquatic connectvity including dams and road-stream crossings.  ",
+					"pluginName": "barrier-prioritization-proto2"
+				}
+            ]
+      }
 }
