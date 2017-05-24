@@ -12,8 +12,7 @@
 		},
         { "text": "The Nature Conservancy", "url": "http://www.nature.org/ourinitiatives/regions/northamerica/unitedstates/maine/index.htm" },
         { "text": "Partners", "url": "partners.html", "popup": true },
-        { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use/index.htm" },
-        { "text": "Tour", "url": "javascript:;", "elementId": "help-overlay-start"}
+        { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use/index.htm" }
     ],
     "initialExtent": [
         -83.5,
@@ -59,7 +58,7 @@
 	"headerLogoPath": "http://maps.coastalresilience.org/network/img/TNCLogoPrimary_RGB2.jpg"
     },    
     "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
-	"identifyEnabled": true,
+	"identifyEnabled": false,
     
     "colors": {
        "primary": "#4BA947",
