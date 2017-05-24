@@ -70,11 +70,12 @@
 	
     "launchpad": {
             "title": "",
-            "description":"<p>Welcome to the Freshwater Northeast Region, where users can explore in-stream barriers to aquatic connectivity.</p>",
+            "description":"<p>Welcome to the Freshwater Northeast Region, a tool for exploring in-stream barriers to aquatic connectivity and identifying opportunities for connectivity restoration projects.  This tool was developed as part of the <a href='https://streamcontinuity.org/'>North Atlantic Aquatic Connectviity Collaborative</a> and is part of a family of spatial decision support tools supported through the <a href='http://coastalresilience.org/natural-solutions/toolkit/'>Natural Solutions Toolkit</a>. </p>",
             "plugins": [
 
 				{
-					"title": "Aquatic Barrier Prioritization - new",
+					"title": "<img src='img/barrier_prioritization.png' hspace=10>Aquatic Barrier Prioritization",
+				
 					"description": "A tool to assess barriers to aquatic connectvity including dams and road-stream crossings.  ",
 					"pluginName": "barrier-prioritization-proto2"
 				}
