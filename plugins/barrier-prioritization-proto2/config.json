@@ -7,6 +7,8 @@
 	"includeSurveyPageLink" : true,
 	"includeFERC": true,
 	"includeFactSheets" : false,
+	"includeClickUSNetwork": false,
+    "includeMilesOverTime" : false,
 	"includeStratifiedRegions" : false,
 	"includeMultipleScenarios" : false,
 	"residentTierName" : "",
